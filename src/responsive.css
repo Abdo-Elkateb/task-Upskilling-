@@ -1,0 +1,193 @@
+/* 
+1024 992 768 600
+*/
+@media screen and (max-width: 1300px) {
+    .pastries-center-main .title {
+        font-size: 60px;
+    }
+
+    .cake-food img {
+        width: 45%;
+
+    }
+}
+
+/*           1200px      */
+@media screen and (max-width: 1200px) {
+    .pastries-center-main .title {
+        font-size: 60px;
+    }
+
+    .cake-food img {
+        width: 45%;
+    }
+
+    .pastries-center-main .see-more {
+        width: 170px;
+        height: 55px;
+        font-size: 16px;
+    }
+}
+
+/*           992      */
+@media screen and (max-width: 992px) {
+
+    .pastries-center-main .title {
+        font-size: 40px;
+    }
+
+    .cake-food img {
+        width: 40%;
+    }
+
+    .h1-main,
+    .h1-main-2 {
+        font-size: 70px;
+    }
+
+    .images {
+        display: none;
+    }
+}
+
+/*           768      */
+@media screen and (max-width: 768px) {
+
+    .tasty-pastries {
+        display: flex;
+        text-align: center;
+        width: 100%;
+        height: 500px;
+        align-items: center;
+    }
+
+    .pastries-center-main .title {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+    .pastries-center-main .discription {
+        max-width: 90%;
+    }
+
+    .cake-food img {
+        display: none;
+    }
+
+    .main-cont {
+        display: none;
+    }
+
+    .Social-Media-images {
+        display: none;
+    }
+
+    .telephone {
+        display: none;
+    }
+
+    .Social-Media {
+        display: none;
+    }
+
+    .our-work {
+        width: 100%;
+    }
+
+    .how-we-work h1 {
+        font-size: 50px;
+        margin-bottom: 70px;
+    }
+
+    .how-we-work .title {
+        display: none;
+    }
+
+
+    .about-details h1 {
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    .chef {
+        display: none;
+    }
+
+    .images {
+        display: none;
+    }
+
+    .testymonials h1 {
+        font-size: 35px;
+    }
+
+    .Contact h1 {
+        font-size: 35px;
+    }
+}
+
+
+
+/*           600      */
+@media screen and (max-width: 600px) {
+
+    .tasty-pastries {
+
+        height: 100vh;
+    }
+
+    .pastries-center-main .title {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .pastries-center-main .see-more {
+        width: 170px;
+        height: 55px;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .pastries-center-main .discription {
+        max-width: 100%;
+    }
+
+
+
+    .how-we-work h1 {
+        font-size: 30px;
+        margin-bottom: 70px;
+        margin-top: 70px;
+
+    }
+
+    .how-we-work .title {
+        display: none;
+    }
+
+    .our-work {
+        height: 50vh;
+    }
+
+
+    .about-details h1 {
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    .chef {
+        display: none;
+    }
+
+    .images {
+        display: none;
+    }
+
+    .testymonials h1 {
+        font-size: 35px;
+    }
+
+    .Contact h1 {
+        font-size: 35px;
+    }
+}

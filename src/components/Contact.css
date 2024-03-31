@@ -1,0 +1,52 @@
+.Contact {
+    /* height: 400px; */
+    padding: 40px 0px;
+
+}
+.Contact h1 {
+    font-size: 144px;
+        font-weight: 800;
+        margin-top: 20px;
+        color: #C98A40;
+        text-transform: uppercase;
+        text-align: center;
+}
+.input {
+    background: #FFD39F !important;
+    Width:374px !important;
+    Height:56px !important;
+    color: black !important;
+    border: none;
+    padding: 10px;
+    font-weight: 800 !important;
+    font-size: 14px !important;
+    border-radius:61px !important;
+    margin-bottom: 20px;
+    -webkit-border-radius:61px !important;
+    -moz-border-radius:61px !important;
+    -ms-border-radius:61px !important;
+    -o-border-radius:61px !important;
+}
+.send-Submit {
+     background: none;
+     margin-left: 50px;
+     padding:14px 60px;
+     border: 1px solid #C98A40;
+     border-radius: 30px;
+}
+.contact-me {
+    padding: 20px;
+}
+.contact-me img {
+    margin-right: 20px;
+        padding: 10px;
+        
+}
+.contact-me span {
+    color:#C98A40;
+}
+.footer {
+    height: 50px;
+    max-width: 100%;
+    background-color: #584125;
+}

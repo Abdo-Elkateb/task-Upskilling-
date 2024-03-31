@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Abdo-Elkateb/tasty-pastries-react.git/static/css/main.3280dedb.css",
+    "main.js": "/Abdo-Elkateb/tasty-pastries-react.git/static/js/main.eadc8c18.js",
+    "static/js/453.2745afef.chunk.js": "/Abdo-Elkateb/tasty-pastries-react.git/static/js/453.2745afef.chunk.js",
+    "static/media/Mask Group.png": "/Abdo-Elkateb/tasty-pastries-react.git/static/media/Mask Group.2953e1ef13342e1abfe1.png",
+    "index.html": "/Abdo-Elkateb/tasty-pastries-react.git/index.html",
+    "main.3280dedb.css.map": "/Abdo-Elkateb/tasty-pastries-react.git/static/css/main.3280dedb.css.map",
+    "main.eadc8c18.js.map": "/Abdo-Elkateb/tasty-pastries-react.git/static/js/main.eadc8c18.js.map",
+    "453.2745afef.chunk.js.map": "/Abdo-Elkateb/tasty-pastries-react.git/static/js/453.2745afef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3280dedb.css",
+    "static/js/main.eadc8c18.js"
+  ]
+}

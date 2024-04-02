@@ -6,37 +6,27 @@ const Contact = () => {
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
 
-  
-  const postRequest = (e) => {
-    e.preventDefault()
-    const post = {
-      name,
-      email,
-      phone
-    }
 
-    fetch('http://upskilling-egypt.com:3001/contact', {
+
+    const postRequest = (e) => {
+      e.preventDefault()
+      const post = {
+        name,
+        email,
+        phone
+      }
+      const requestOptions = {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(post),
-      })
-        .then(response => {
-          if (!response.ok) {
-            alert("Network response was not ok")
-          }
-          return response.json(); 
-        })
-        .then(data => {
-          alert('Email sent successfully:');
-          console.log(data)
-      
-        })
-     
-    
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: post.email, name: post.name, phone: post.phone })
+      };
+
+      fetch('http://upskilling-egypt.com:3001/contact', requestOptions)
+        .then(response => response.json())
+        .then(data => alert(data.message));
 
 }
+
   return (
     <>
    

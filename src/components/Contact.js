@@ -1,18 +1,54 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Contact = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+
+  
+  const postRequest = (e) => {
+    e.preventDefault()
+    const post = {
+      name,
+      email,
+      phone
+    }
+
+    fetch('https://jsonplaceholder.typicode.com/posts', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(post),
+      })
+        .then(response => {
+          if (!response.ok) {
+            alert("Network response was not ok")
+          }
+          return response.json(); 
+        })
+        .then(data => {
+          alert('Email sent successfully:', data);
+          console.log(data)
+          // Handle the response data here
+      
+        })
+     
+    
+
+}
   return (
     <>
    
     <div className='Contact row justify-content-center'>
           <h1 className=''>Contact us</h1>
           <div className='col-md-4'>
-              <form>
-          <input className="input" type="text" id="lname" placeholder="Full Name"  />
-          <input className="input" type="text" id="lname" placeholder="Email" />
-          <input className="input" type="phone" id="lname" placeholder="Phone Number" />
-          <input className='send-Submit' type="submit" value="send"/>
-              </form>
+          <form action='#' onSubmit={postRequest} >
+            <input className="input" type="text" name="name" value={name} onChange={(e) => setName(e.target.value)} placeholder="Full Name" />
+            <input className="input" type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" />
+            <input className="input" type="phone" name="phone" value={phone} onChange={(e) => setPhone(e.target.value)} Email placeholder="Phone Number" />
+            <input className='send-Submit' value="send" type='submit' />
+          </form>
 
 
           </div>
@@ -40,4 +76,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+  export default Contact

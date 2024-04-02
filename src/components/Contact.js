@@ -14,7 +14,7 @@ const Contact = () => {
       phone
     }
 
-    fetch('http://upskilling-egypt.com:3001/contactgit', {
+    fetch('http://upskilling-egypt.com:3001/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

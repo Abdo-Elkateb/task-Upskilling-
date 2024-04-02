@@ -14,7 +14,7 @@ const Contact = () => {
       phone
     }
 
-    fetch('https://jsonplaceholder.typicode.com/posts', {
+    fetch('http://upskilling-egypt.com:3001/contactgit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -30,7 +30,6 @@ const Contact = () => {
         .then(data => {
           alert('Email sent successfully:', data);
           console.log(data)
-          // Handle the response data here
       
         })
      

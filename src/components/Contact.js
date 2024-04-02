@@ -29,7 +29,7 @@ const Contact = () => {
           return response.json(); 
         })
         .then(data => {
-          alert('Email sent successfully:', data);
+          alert('Email sent successfully:');
           console.log(data)
       
         })
